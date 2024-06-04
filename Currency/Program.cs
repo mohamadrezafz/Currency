@@ -13,4 +13,4 @@ converter.UpdateConfiguration(new List<Tuple<string, string, double>>
 double amount = 134;
 double convertedAmount = converter.Convert("CAD", "EUR", 134);
 
-Console.WriteLine($"{amount} CAD equivalent {convertedAmount} USD");
+Console.WriteLine($"{amount} CAD equivalent {convertedAmount} EUR");
